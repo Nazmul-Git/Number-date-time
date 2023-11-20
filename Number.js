@@ -27,6 +27,12 @@ console.log(Math.sqrt(25)); // 5
 console.log( 25 ** (1/2) ); // 5
 console.log( 8 ** (1/3) ); // 2
 
-console.log(Math.max(35,25,1,45,3,0,16,20,45)); //45
-console.log(Math.max(35,25,1,'45',3,0,16,20,45)); //45
-console.log(Math.max(35,25,1,'45px',3,0,16,20,45)); //NaN
+// MAX
+console.log(Math.max(35,25,1,45,3,16,20,45)); //45
+console.log(Math.max(35,25,1,'45',3,16,20,45)); //45
+console.log(Math.max(35,25,1,'45px',3,16,20,45)); //NaN
+
+// MIN
+console.log(Math.min(35,25,1,45,3,16,20,45)); //1
+console.log(Math.min(35,25,'1','45',3,16,20,45)); //1
+console.log(Math.min(35,25,'1px','45px',3,16,20,45)); //NaN
