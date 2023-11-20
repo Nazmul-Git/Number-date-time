@@ -39,3 +39,34 @@ console.log(Math.min(35,25,'1px','45px',3,16,20,45)); //NaN
 
 //  PI
 console.log(Math.PI + Number.parseFloat('10px') ** 2); // 3.1416+100 = 103.1415926535898
+
+// RANDOM , TRUNC
+console.log(Math.random()*6 +1); //random number up to 6
+console.log(Math.floor(Math.random()*6 +1)); //random integer number up to 6
+
+//when get user input
+const randomInt=(min, max)=>Math.floor(Math.random()*(max-min) + 1) + min;
+console.log(randomInt(10,20));
+
+// ROUNDING INTEGER
+
+// round()
+console.log(Math.round(23.3)); //23
+console.log(Math.round(23.9)); //24
+
+//  ceil()
+console.log(Math.ceil(23.3)); //24
+console.log(Math.ceil('23.9')); //24
+
+// floor()
+console.log(Math.floor(23.3)); //23
+console.log(Math.floor(23.9)); //23
+
+// trunc()
+console.log(Math.trunc(23.3)); //23
+console.log(Math.trunc(23.9)); //23
+
+console.log(Math.trunc(-23.3)); // -23
+console.log(Math.floor(-23.9)); // -24  //floor better than trunc
+
+
