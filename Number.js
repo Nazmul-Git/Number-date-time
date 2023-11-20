@@ -19,3 +19,12 @@ console.log(Number.parseFloat('20.7 $')); // 20.7
 console.log(Number.isFinite(20)); //true
 console.log(Number.isFinite(20.01)); //true
 console.log(Number.isFinite(23/0)); //false      //infinity
+
+
+
+////////////////// Math /////////////////////
+console.log(Math.sqrt(25)); // 5
+console.log( 25 ** (1/2) ); // 5
+console.log( 8 ** (1/3) ); // 2
+
+console.log(Math.max())
