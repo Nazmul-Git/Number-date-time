@@ -36,3 +36,6 @@ console.log(Math.max(35,25,1,'45px',3,16,20,45)); //NaN
 console.log(Math.min(35,25,1,45,3,16,20,45)); //1
 console.log(Math.min(35,25,'1','45',3,16,20,45)); //1
 console.log(Math.min(35,25,'1px','45px',3,16,20,45)); //NaN
+
+//  PI
+console.log(Math.PI + Number.parseFloat('10px') ** 2); // 3.1416+100 = 103.1415926535898
