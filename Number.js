@@ -14,3 +14,8 @@ console.log(Number.parseInt('e303', 10));  // NaN
 console.log(Number.parseInt('20 $')); // 20
 console.log(Number.parseInt('20.7 $')); // 20
 console.log(Number.parseFloat('20.7 $')); // 20.7
+
+// checking if value is number
+console.log(Number.isFinite(20)); //true
+console.log(Number.isFinite(20.01)); //true
+console.log(Number.isFinite(23/0)); //false      //infinity
