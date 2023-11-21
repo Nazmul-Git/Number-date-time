@@ -9,3 +9,9 @@
  const num=26;
 //  console.log(huge+num); //TypeError: Cannot mix BigInt and other types
 console.log(huge+BigInt(num)); //5454456454245445440n
+
+// Expression
+console.log(20n > 15); //true
+console.log(20n === 20n); //true
+console.log(typeof 20n); // bigint
+console.log(20n > '20'); // false
