@@ -69,4 +69,14 @@ console.log(Math.trunc(23.9)); //23
 console.log(Math.trunc(-23.3)); // -23
 console.log(Math.floor(-23.9)); // -24  //floor better than trunc
 
+// ROUNDING DECIMAL
+console.log((2.3).toFixed()); //2   string
+console.log((2.3).toFixed(3)); //2.300   string
+console.log((2.3551).toFixed(3)); //2.355   string
+console.log( +(2.3551).toFixed(3) ); //2.355   number
 
+
+// check even
+const isEven= n => n % 2 === 0;
+console.log(isEven(8));
+console.log(isEven(9));
