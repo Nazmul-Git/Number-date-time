@@ -15,3 +15,8 @@ console.log(20n > 15); //true
 console.log(20n === 20n); //true
 console.log(typeof 20n); // bigint
 console.log(20n > '20'); // false
+
+
+// Division
+console.log(11n / 3n); //3n
+console.log(10 / 3); //3.3333333333333335
